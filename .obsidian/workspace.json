@@ -1,0 +1,194 @@
+{
+  "main": {
+    "id": "7e09fce737d8acdd",
+    "type": "split",
+    "children": [
+      {
+        "id": "82686b21767d35c1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "dd0ad0998a79f5f3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Programming Languages/C++/C++.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ce4642eae41248fb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Programming Languages/Machine Code.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "3651832777717067",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1475b9d44c175321",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "41e71462fdbd485f",
+    "type": "split",
+    "children": [
+      {
+        "id": "5e85535148df7855",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "937f8672fe7780d4",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "bd7dc509632d83af",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "bd8d950ceb1599e9",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "51961a606b2905bf",
+    "type": "split",
+    "children": [
+      {
+        "id": "7b1396f4e0dc3d2e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9a3b2ac9d3bd41c0",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Programming Languages/C++/C++.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "f89396adf4db945e",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Programming Languages/C++/C++.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "26c7fdf5500808ef",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "55f6840d3f98e4ba",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Programming Languages/C++/C++.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "dd0ad0998a79f5f3",
+  "lastOpenFiles": [
+    "Programming Languages/Compiled Language.md",
+    "Programming Languages/Programming Languages.md",
+    "Programming Languages/C++/C++.md",
+    "Programming Languages/Static-Typed.md",
+    "Programming Languages/Virtual Machine.md",
+    "Programming Languages/Implementation.md",
+    "Programming Languages/Compiler.md",
+    "Programming Languages/Interpreter.md",
+    "Programming Languages/Machine Code.md",
+    "1.md",
+    "Type of Languages.md",
+    "Compiled Language.md",
+    "compiled language.md",
+    "Programming Languages",
+    "Programming Languages/C++",
+    "Welcome.md"
+  ]
+}

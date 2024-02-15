@@ -1,0 +1,1 @@
+An interpreter is composed of two parts: a parser and an evaluator. After a program is read as input by an interpreter, it is processed by the parser. The parser breaks the program into language components to form a parse tree. The evaluator then uses the parse tree to execute the program.

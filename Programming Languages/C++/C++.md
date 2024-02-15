@@ -1,0 +1,2 @@
+- C++ is a [[Compiled Language|compiled]] language, different of Python or Javascript, for example.
+- C++ is a [[Static-Typed|static-typed]] language, that is, when compiling, it's verified the types of variables, expressions, functions signatures to ensure correctness in the program along with type consistency before generating the executable code.

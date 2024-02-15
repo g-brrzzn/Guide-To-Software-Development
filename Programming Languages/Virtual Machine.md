@@ -1,0 +1,1 @@
+A virtual machine is a special type of interpreter that interprets bytecode. Bytecode is a portable low-level code similar to machine code, though it is generally executed on a virtual machine instead of a physical machine. To improve their efficiencies, many programming languages such as Java, Python, and C# are compiled to bytecode before being interpreted.
