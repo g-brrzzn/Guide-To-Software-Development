@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programming Languages/Compiler.md",
+                "file": "Programming Languages/Bytecode.md",
                 "mode": "source",
                 "source": false
               }
@@ -99,7 +99,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programming Languages/Compiler.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +115,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programming Languages/Compiler.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,9 +136,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Programming Languages/Compiler.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -152,34 +148,50 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Abrir a troca rápida": false,
-      "graph:Abrir visualização em gráfico": false,
-      "canvas:Criar novo canvas": false,
-      "daily-notes:Abrir a nota de hoje": false,
-      "templates:Inserir modelo": false,
-      "command-palette:Abrir paleta de comandos": false
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
     }
   },
-  "active": "ce4642eae41248fb",
+  "active": "dd0ad0998a79f5f3",
   "lastOpenFiles": [
-    "Programming Languages/Compiled Language.md",
-    "Programming Languages/C++/C++.md",
+    "Programming Languages/Bytecode.md",
     "Programming Languages/Programming Languages.md",
-    "Programming Languages/Source Code.md",
-    "Programming Languages/Machine Code.md",
+    "Programming Languages/Compiled Language.md",
+    "Programming Languages/Common Lisp.md",
+    "Programming Languages/Central Processing Unit (CPU).md",
+    "Programming Languages/Byte.md",
     "README.md",
-    "LICENSE",
-    "Programming Languages/Static-Typed.md",
-    "Programming Languages/Virtual Machine.md",
-    "Programming Languages/Implementation.md",
-    "Programming Languages/Compiler.md",
+    "Version Control/Version Control.md",
+    "Continuous Integration and Deployment/Continuous Integration and Deployment.md",
+    "Testing and Quality Assurance/Testing and Quality Assurance.md",
+    "Database Management/Database Management.md",
+    "Architectural Patterns/Architectural Patterns.md",
+    "Design Principles/Software Design Principles.md",
+    "Methodologies/Software Development Methodologies.md",
+    "Continuous Integration and Deployment",
+    "Testing and Quality Assurance",
+    "Database Management",
+    "Architectural Patterns",
+    "Design Principles",
+    "Version Control",
+    "Methodologies",
+    "Programming Languages/Opcodes.md",
+    "Programming Languages/Human-Readable.md",
+    "Programming Languages/Semantic Analysis.md",
+    "Programming Languages/Instruction Set.md",
     "Programming Languages/Interpreter.md",
-    "1.md",
-    "Type of Languages.md",
-    "Compiled Language.md",
-    "compiled language.md",
-    "Programming Languages",
-    "Programming Languages/C++",
-    "Welcome.md"
+    "Programming Languages/Source Code.md",
+    "Programming Languages/C#/C-Sharp.md",
+    "Programming Languages/C/C.md",
+    "Programming Languages/Python/Python.md",
+    "Programming Languages/Python",
+    "Programming Languages/C#",
+    "Programming Languages/Java Virtual Machine.md",
+    "Programming Languages/Interpreted Languages.md",
+    "Programming Languages/Java"
   ]
 }

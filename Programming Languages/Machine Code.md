@@ -1,4 +1,4 @@
-In computer programming, machine code is computer code consisting of machine language instructions, which are used to control a computer's central processing unit (CPU). Although decimal computers were once common, the contemporary marketplace is dominated by binary computers; for those computers, machine code is "the binary representation of a computer program which is actually read and interpreted by the computer. A program in machine code consists of a sequence of machine instructions (possibly interspersed with data)."[1]
+In computer programming, machine code is computer code consisting of machine language instructions, which are used to control a computer's central processing unit (CPU). Although decimal computers were once common, the contemporary marketplace is dominated by binary computers; for those computers, machine code is "the binary representation of a computer program which is actually read and interpreted by the computer. A program in machine code consists of a sequence of machine instructions (possibly interspersed with data)."
 
 Each instruction causes the CPU to perform a very specific task, such as a load, a store, a jump, or an arithmetic logic unit (ALU) operation on one or more units of data in the CPU's registers or memory.
 
@@ -8,7 +8,7 @@ In general, each architecture family (e.g. x86, ARM) has its own ISA, and hence 
 
 Machine code is a strictly numerical language, and is the lowest-level interface to the CPU intended for a programmer. Assembly language provides a direct mapping between the numerical machine code and a human-readable version where numerical opcodes and operands are replaced by readable strings (e.g. 0x90 is the NOP instruction on x86). While it is possible to write programs directly in machine code, managing individual bits and calculating numerical addresses and constants manually is tedious and error-prone. For this reason, programs are very rarely written directly in machine code in modern contexts, but may be done for low-level debugging, program patching (especially when assembler source is not available) and assembly language disassembly.
 
-The majority of practical programs today are written in higher-level languages. Those programs are either translated into machine code by a compiler, or are interpreted by an interpreter, usually after being translated into an intermediate code, such as a bytecode, that is then interpreted.[nb 1]
+The majority of practical programs today are written in higher-level languages. Those programs are either translated into machine code by a compiler, or are interpreted by an interpreter, usually after being translated into an intermediate code, such as a bytecode, that is then interpreted.
 
 Machine code is by definition the lowest level of programming detail visible to the programmer, but internally many processors use microcode or optimize and transform machine code instructions into sequences of micro-ops. Microcode and micro-ops are not generally considered to be machine code; except on some machines, the user cannot write microcode or micro-ops, and the operation of microcode and the transformation of machine-code instructions into micro-ops happens transparently to the programmer except for performance related side effects.
 
@@ -39,9 +39,9 @@ The MIPS architecture provides a specific example for a machine code whose instr
 
 rs, rt, and rd indicate register operands; shamt gives a shift amount; and the address or immediate fields contain an operand directly. 
 
-For example, adding the registers 1 and 2 and placing the result in register 6 is encoded:[5]: 554 
+For example, adding the registers 1 and 2 and placing the result in register 6 is encoded:
 
-[  op  |  rs |  rt |  rd |shamt| funct]
+`[  op  |  rs |  rt |  rd |shamt| funct]`
     0     1     2     6     0     32     decimal
  000000 00001 00010 00110 00000 100000   binary
  
