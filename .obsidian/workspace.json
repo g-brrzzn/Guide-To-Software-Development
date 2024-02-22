@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programming Languages/Bytecode.md",
+                "file": "Database Management/Database Management.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0a3541ae0a031c8a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Programming Languages/PHP/PHP.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "49898bc949008d9e",
@@ -99,6 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Programming Languages/PHP/PHP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,6 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Programming Languages/PHP/PHP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +151,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Programming Languages/PHP/PHP.md"
+              }
             }
           }
         ]
@@ -156,22 +173,35 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "dd0ad0998a79f5f3",
+  "active": "0a3541ae0a031c8a",
   "lastOpenFiles": [
+    "Untitled.md",
+    "Programming Languages/PHP/PHP.md",
+    "Programming Languages/PHP",
     "Programming Languages/Bytecode.md",
+    "Programming Languages/Central Processing Unit (CPU).md",
+    "Programming Languages/P-Code.md",
+    "Database Management/Database Management.md",
+    "Programming Languages/Lua/Lua.md",
+    "Programming Languages/Lua",
+    "Programming Languages/Object Modules.md",
+    "Programming Languages/Register Machines.md",
+    "Programming Languages/Stack Machines.md",
+    "Programming Languages/P-Code Machine.md",
+    "Programming Languages/Operating System.md",
+    "Programming Languages/Interpretation.md",
+    "Programming Languages/Intermediate Representations.md",
+    "Programming Languages/Opcodes.md",
+    "Programming Languages/C/C.md",
     "Programming Languages/Programming Languages.md",
     "Programming Languages/Compiled Language.md",
     "Programming Languages/Common Lisp.md",
-    "Programming Languages/Central Processing Unit (CPU).md",
     "Programming Languages/Byte.md",
     "README.md",
     "Version Control/Version Control.md",
     "Continuous Integration and Deployment/Continuous Integration and Deployment.md",
     "Testing and Quality Assurance/Testing and Quality Assurance.md",
-    "Database Management/Database Management.md",
     "Architectural Patterns/Architectural Patterns.md",
-    "Design Principles/Software Design Principles.md",
-    "Methodologies/Software Development Methodologies.md",
     "Continuous Integration and Deployment",
     "Testing and Quality Assurance",
     "Database Management",
@@ -179,19 +209,6 @@
     "Design Principles",
     "Version Control",
     "Methodologies",
-    "Programming Languages/Opcodes.md",
-    "Programming Languages/Human-Readable.md",
-    "Programming Languages/Semantic Analysis.md",
-    "Programming Languages/Instruction Set.md",
-    "Programming Languages/Interpreter.md",
-    "Programming Languages/Source Code.md",
-    "Programming Languages/C#/C-Sharp.md",
-    "Programming Languages/C/C.md",
-    "Programming Languages/Python/Python.md",
-    "Programming Languages/Python",
-    "Programming Languages/C#",
-    "Programming Languages/Java Virtual Machine.md",
-    "Programming Languages/Interpreted Languages.md",
-    "Programming Languages/Java"
+    "Programming Languages/Python"
   ]
 }
