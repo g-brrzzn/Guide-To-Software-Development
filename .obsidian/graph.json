@@ -1,22 +1,79 @@
 {
-  "collapse-filter": true,
+  "collapse-filter": false,
   "search": "",
   "showTags": false,
   "showAttachments": false,
-  "hideUnresolved": false,
-  "showOrphans": true,
+  "hideUnresolved": true,
+  "showOrphans": false,
   "collapse-color-groups": true,
-  "colorGroups": [],
+  "colorGroups": [
+    {
+      "query": "path:\"Programming Languages\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 2347264
+      }
+    },
+    {
+      "query": "path:\"Architectural Patterns\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 556986
+      }
+    },
+    {
+      "query": "path:Methodologies  ",
+      "color": {
+        "a": 1,
+        "rgb": 8388712
+      }
+    },
+    {
+      "query": "path:\"Design Principles\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 8374246
+      }
+    },
+    {
+      "query": "path:\"Testing and Quality Assurance\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 14105660
+      }
+    },
+    {
+      "query": "path:\"Database Management\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 15001633
+      }
+    },
+    {
+      "query": "path:\"Continuous Integration and Deployment\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 6053078
+      }
+    },
+    {
+      "query": "path:\"Version Control\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 11361494
+      }
+    }
+  ],
   "collapse-display": true,
   "showArrow": false,
   "textFadeMultiplier": 0,
   "nodeSizeMultiplier": 1,
   "lineSizeMultiplier": 1,
-  "collapse-forces": true,
-  "centerStrength": 0.369791666666667,
-  "repelStrength": 8.95833333333333,
-  "linkStrength": 0.703125,
-  "linkDistance": 133,
-  "scale": 0.1443139489422114,
+  "collapse-forces": false,
+  "centerStrength": 0.203125,
+  "repelStrength": 15.3125,
+  "linkStrength": 0.645833333333333,
+  "linkDistance": 150,
+  "scale": 0.12249410400257021,
   "close": true
 }

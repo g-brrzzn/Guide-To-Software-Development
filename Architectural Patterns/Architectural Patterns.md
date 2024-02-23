@@ -1,6 +1,6 @@
 Explore common architectural patterns for building software systems, including:
 
-- [[Monolithic architecture]]
+- [[Monolithic Architecture]]
 - [[Microservices architecture]]
 - [[Event-driven architecture]]
 - [[Layered architecture]]

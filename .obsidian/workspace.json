@@ -13,29 +13,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Database Management/Database Management.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0a3541ae0a031c8a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Programming Languages/PHP/PHP.md",
+                "file": "Programming Languages/Bytecode.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
-        "id": "49898bc949008d9e",
+        "id": "9d3ddb24950241dc",
         "type": "tabs",
         "children": [
           {
@@ -112,7 +99,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programming Languages/PHP/PHP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +115,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programming Languages/PHP/PHP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,9 +136,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Programming Languages/PHP/PHP.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -173,42 +156,43 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0a3541ae0a031c8a",
+  "active": "dd0ad0998a79f5f3",
   "lastOpenFiles": [
-    "Untitled.md",
-    "Programming Languages/PHP/PHP.md",
-    "Programming Languages/PHP",
     "Programming Languages/Bytecode.md",
-    "Programming Languages/Central Processing Unit (CPU).md",
-    "Programming Languages/P-Code.md",
-    "Database Management/Database Management.md",
-    "Programming Languages/Lua/Lua.md",
-    "Programming Languages/Lua",
-    "Programming Languages/Object Modules.md",
-    "Programming Languages/Register Machines.md",
-    "Programming Languages/Stack Machines.md",
-    "Programming Languages/P-Code Machine.md",
-    "Programming Languages/Operating System.md",
-    "Programming Languages/Interpretation.md",
-    "Programming Languages/Intermediate Representations.md",
-    "Programming Languages/Opcodes.md",
-    "Programming Languages/C/C.md",
-    "Programming Languages/Programming Languages.md",
-    "Programming Languages/Compiled Language.md",
-    "Programming Languages/Common Lisp.md",
-    "Programming Languages/Byte.md",
-    "README.md",
+    "Programming Languages/Assembly/Assembly.md",
+    "Programming Languages/C++/C++.md",
+    "Programming Languages/Source Code.md",
+    "Programming Languages/Smalltalk.md",
+    "Programming Languages/Compiler.md",
+    "Programming Languages/Assembly",
+    "Programming Languages/Object-Oriented Programming.md",
     "Version Control/Version Control.md",
-    "Continuous Integration and Deployment/Continuous Integration and Deployment.md",
+    "Testing and Quality Assurance/Code review and static code analysis.md",
     "Testing and Quality Assurance/Testing and Quality Assurance.md",
+    "Testing and Quality Assurance/Continuous integration (CI) and continuous deployment (CD).md",
+    "Testing and Quality Assurance/Test-driven development (TDD).md",
+    "Testing and Quality Assurance/Functional testing.md",
+    "Testing and Quality Assurance/Integration testing.md",
+    "Testing and Quality Assurance/Unit testing.md",
+    "Methodologies/DevOps.md",
+    "Methodologies/Software Development Methodologies.md",
+    "README.md",
+    "Methodologies/Lean.md",
+    "Methodologies/Waterfall.md",
+    "Methodologies/Kanban.md",
+    "Methodologies/Scrum.md",
+    "Methodologies/Agile.md",
+    "Architectural Patterns/Model-View-Controller (MVC).md",
     "Architectural Patterns/Architectural Patterns.md",
+    "Architectural Patterns/Service-Oriented Architecture (SOA).md",
+    "CI",
+    "Programming Languages/PHP",
+    "Programming Languages/Lua",
     "Continuous Integration and Deployment",
     "Testing and Quality Assurance",
     "Database Management",
     "Architectural Patterns",
     "Design Principles",
-    "Version Control",
-    "Methodologies",
-    "Programming Languages/Python"
+    "Version Control"
   ]
 }
