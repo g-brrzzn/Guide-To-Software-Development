@@ -1,0 +1,33 @@
+{
+	"nodes":[
+		{"id":"e0258a528623bfc4","type":"group","x":-640,"y":-1390,"width":1280,"height":2780,"color":"5","label":"1 - Software Design Principles"},
+		{"id":"b3558b506cadedec","type":"text","text":"***Exercises***","x":-150,"y":790,"width":280,"height":60,"color":"5"},
+		{"id":"ecda2e99fb079435","type":"text","text":"**Dependency Inversion Principle**\n- Prefer composition over inheritance.\n- A high-level module should not depend on a low-level module.","x":130,"y":310,"width":245,"height":320,"color":"5"},
+		{"id":"b145741cc1d4f18f","type":"text","text":"Metric of how much one class depends on another","x":320,"y":-230,"width":300,"height":80,"color":"5"},
+		{"id":"b4e62c19f27f598f","type":"text","text":"**Coupling**\n- Degree of dependency between different classes\n- Desired: low coupling, so that changes in A will minimally affect B\n- Acceptable: A depends on B","x":320,"y":-530,"width":300,"height":280,"color":"5"},
+		{"id":"1f22f9331cd16a1e","type":"text","text":"Refers to how concentrated and specific the responsibility of a class is.","x":15,"y":-230,"width":255,"height":120,"color":"5"},
+		{"id":"0972a13d5497af79","type":"text","text":"**Cohesion**\n- Classes and functions should have a single responsibility\n- Avoid assuming responsibilities that are not theirs\n- +Cohesion -Coupling","x":5,"y":-530,"width":275,"height":280,"color":"5"},
+		{"id":"c39fa382acd87ef3","type":"text","text":"**Technical Design**\n- Shows programmers what the system will do\n- \"Network Topology; Used Protocol; Prescribed bps Rate...\"","x":5,"y":-1190,"width":283,"height":280,"color":"5"},
+		{"id":"13a7d140ef8161b3","type":"text","text":"**Software Project**\n\n- Breaking down a problem into smaller parts","x":-150,"y":-1370,"width":250,"height":160,"color":"5"},
+		{"id":"1c1ed85081605ad4","type":"text","text":"***S. O. L. I. D. ***","x":-100,"y":-50,"width":150,"height":60,"color":"5"},
+		{"id":"81acdcbd3438f5a6","type":"text","text":"**Law of Demeter**\n(Not part of SOLID)\n- Avoid having to navigate through several methods to get the result\n- \"Don't talk to strangers\"","x":125,"y":30,"width":250,"height":260,"color":"5"},
+		{"id":"0c547ab3b55fcd04","type":"text","text":"**Interface Segregation Principle**\n- Interfaces should be cohesive and specific to each task and client.","x":-150,"y":30,"width":250,"height":220,"color":"5"},
+		{"id":"f5d5351ff9dcddb1","type":"text","text":"**Liskov Substitution Principle**\n- Objects of a class should be replaceable with objects of its derived classes without affecting the program.\n- \"A penguin cannot replace a bird, as it does not fly.\"","x":-150,"y":310,"width":250,"height":360,"color":"5"},
+		{"id":"015cbcfa2f4e8a31","type":"text","text":"**Cyclomatic Complexity**\n- A metric designed to measure the complexity of software by counting the number of independent paths through the code.","x":-135,"y":1090,"width":260,"height":280,"color":"5"},
+		{"id":"cb2f500d88e0a2a3","type":"text","text":"**LCOM (Lack of Cohesion in Methods)**\n- A metric designed to measure the lack of cohesion in a class.","x":-135,"y":870,"width":250,"height":180,"color":"5"},
+		{"id":"06c72b4aab9b83fb","type":"text","text":"**Design principles are not unbreakable laws but are *Guidelines***","x":145,"y":870,"width":225,"height":180,"color":"5"},
+		{"id":"09017e0eb6825eb6","type":"text","text":"**Information Hiding**\n- An extension of Encapsulation, but more specific and narrower in scope\n- Conceals internal details\n- Utilizes getters and setters","x":-422,"y":1090,"width":250,"height":280,"color":"5"},
+		{"id":"879e23534324dc4c","type":"text","text":"**Conceptual Integrity**\n- Always follow the pattern that the system already uses\n- Variable names following a standard\n- Consistent layout scheme when the software changes screens","x":-620,"y":-530,"width":260,"height":320,"color":"5"},
+		{"id":"7c6bdd42c3935780","type":"text","text":"**Single Responsibility**\n- The function should have a single responsibility","x":-445,"y":30,"width":250,"height":220,"color":"5"},
+		{"id":"b5cd6b5d558c55ec","type":"text","text":"Software Architecture Principles","x":-171,"y":-660,"width":293,"height":60,"color":"5"},
+		{"id":"404ad5213d974f30","type":"text","text":"**Information Hiding**\n- Concealing internal elements of classes with *private*\n- *Encapsulation* in OOP","x":-320,"y":-530,"width":265,"height":280,"color":"5"},
+		{"id":"17db7140609ee686","type":"text","text":"**Conceptual Design**\n- Presents to the client precisely what the system will do\n- \"The user will be able to forward messages to any other user...\"","x":-335,"y":-1190,"width":280,"height":280,"color":"5"},
+		{"id":"9f31d845643661e7","type":"text","text":"**Open/Closed Principle**\n- Open for extension, but closed for modification.\n- New behaviors can be added without altering existing code.","x":-445,"y":310,"width":250,"height":320,"color":"5"},
+		{"id":"8fb4c124d91ab92d","type":"text","text":"**Encapsulation**\n- Restricting access to classes and methods\n- Protecting variables\n- Utilizing getters and setters","x":-422,"y":850,"width":250,"height":200,"color":"5"}
+	],
+	"edges":[
+		{"id":"759ecfe8acfa4860","fromNode":"b4e62c19f27f598f","fromSide":"bottom","toNode":"b145741cc1d4f18f","toSide":"top"},
+		{"id":"6c2b987a9e4672e3","fromNode":"0972a13d5497af79","fromSide":"bottom","toNode":"1f22f9331cd16a1e","toSide":"top"},
+		{"id":"747cd0e4b39ceb43","fromNode":"8fb4c124d91ab92d","fromSide":"bottom","toNode":"09017e0eb6825eb6","toSide":"top"}
+	]
+}

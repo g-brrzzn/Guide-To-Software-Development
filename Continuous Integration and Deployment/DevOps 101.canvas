@@ -1,0 +1,24 @@
+{
+	"nodes":[
+		{"id":"737cf516825b9a0d","type":"group","x":-592,"y":-1220,"width":1185,"height":2440,"color":"1","label":"5 - DevOps"},
+		{"id":"db40b5a976d5e98c","type":"text","text":"**Continuous Deployment (CD):** After successful testing, commits and merges are immediately deployed to production as an experimentation for feedback.\n- Evolution of Continuous Delivery.","x":-175,"y":-720,"width":301,"height":257,"color":"1"},
+		{"id":"09eacbf88dc527a0","type":"text","text":"**Continuous Delivery (CD):**\nEnsures that the software can be released at any time.\n- In contrast to Continuous Deployment, the decision to deploy to production is manual.","x":178,"y":-726,"width":294,"height":270,"color":"1"},
+		{"id":"1b47eca2c8f2afe2","type":"text","text":"Combines **Agile**, continuous delivery, and automation.","x":201,"y":-905,"width":248,"height":90,"color":"1"},
+		{"id":"27995a6dd25033d7","type":"text","text":"**Trunk-Based Development (Mainline)**\n- Having only one main branch.\n- But allowing for hotfix branches.","x":-171,"y":685,"width":294,"height":215,"color":"1"},
+		{"id":"2e90ff4dfec1a889","type":"text","text":"**Distributed Version Control System**\nEach developer has a **local repository**, including history. It doesn't depend on constant connections to a central repository (e.g., Git).\n- Commits more frequently.\n- Faster commits.\n- Works both offline and online.\n- Alternative architectures.\n- Peer-to-peer.","x":6,"y":-20,"width":344,"height":360,"color":"1"},
+		{"id":"67c08045a5ec118d","type":"text","text":"**DevOps**\nIntegration of ***Software Development*** with ***IT Operations***, promoting more efficient collaboration between the two areas.","x":-178,"y":-1180,"width":308,"height":180,"color":"1"},
+		{"id":"8be22ebded6c9812","type":"text","text":"**Software Configuration Management (SCM):** Controlling and managing software changes throughout its life.\n- **Version Control:** Using version control systems.\n- **Change Management:** Documenting changes in the software, keeping records.","x":-174,"y":-440,"width":300,"height":370,"color":"1"},
+		{"id":"61bf51215b94b97b","type":"text","text":"**Centralized Version Control System**\nThere is only one central repository, developers work with local copies, and they need to communicate with the central repository to obtain or send updates.\n- Requires being online.\n- Conflicts in large teams.","x":-392,"y":-20,"width":320,"height":360,"color":"1"},
+		{"id":"317e6df5e79d8247","type":"text","text":"**Continuous Integration (CI):** Code changes are delivered to the repository multiple times a day. Each integration triggers the execution of automated tests to ensure there are no regressions or issues.","x":-526,"y":-701,"width":294,"height":220,"color":"1"},
+		{"id":"74bfd99f3c3a6cbb","type":"text","text":"Open communication and collaboration between development and operations teams from the early stages of the development process to implementation.","x":-178,"y":-960,"width":308,"height":200,"color":"1"},
+		{"id":"6984271f44121514","type":"text","text":"**Version Control Repositories**\n\n- **Multirepo:** One repository with multiple projects. More complex, more scalability.\n  \n- **Monorepo:** Each project has its dedicated repository. Simpler, less scalability.","x":-191,"y":400,"width":335,"height":250,"color":"1"},
+		{"id":"1eca18bc9d9f7344","type":"text","text":"**Release Flags**\n- Controls the release of features. Enables and disables functionalities.","x":-366,"y":960,"width":294,"height":165,"color":"1"},
+		{"id":"775714bdecabe966","type":"text","text":"**Business Flags**\n- Controls business rules and user experiences in the system.\n- Often embedded more deeply in the code as they go beyond feature toggles.","x":6,"y":960,"width":354,"height":220,"color":"1"}
+	],
+	"edges":[
+		{"id":"8d1b6269beef6fd5","fromNode":"db40b5a976d5e98c","fromSide":"left","toNode":"317e6df5e79d8247","toSide":"right"},
+		{"id":"ad81ba710435fd62","fromNode":"09eacbf88dc527a0","fromSide":"left","toNode":"db40b5a976d5e98c","toSide":"right"},
+		{"id":"3bb37502fa5f4c8c","fromNode":"74bfd99f3c3a6cbb","fromSide":"right","toNode":"1b47eca2c8f2afe2","toSide":"left"},
+		{"id":"edc898def0a705cd","fromNode":"1eca18bc9d9f7344","fromSide":"right","toNode":"775714bdecabe966","toSide":"left"}
+	]
+}
