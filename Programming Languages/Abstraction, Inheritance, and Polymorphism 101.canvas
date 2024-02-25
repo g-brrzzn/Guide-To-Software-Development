@@ -1,0 +1,10 @@
+{
+	"nodes":[
+		{"id":"f4a1947331015f1e","type":"group","x":-319,"y":-320,"width":638,"height":640,"color":"6","label":"Abstraction, Inheritance, and Polymorphism"},
+		{"id":"fead4bc925c36d8d","type":"text","text":"**Abstraction, Inheritance, and Polymorphism**","x":-191,"y":-300,"width":391,"height":50,"color":"6"},
+		{"id":"18266ad51b73a755","type":"text","text":"**Inheritance**: A subclass inherits characteristics and behavior from the superclass.","x":19,"y":-220,"width":280,"height":140,"color":"6"},
+		{"id":"08cc458e6a96ec39","type":"text","text":"**Polymorphism:** The ability of objects of different types to respond to the same message.\n- Achieved through inheritance or interfaces.\n- \"Blank\" methods\n\n```java\nPaymentCash.pay();\nPaymentCard.pay();\nPaymentPix.pay();\n```\n\n- Different algorithms, but in the same method, changing the class.","x":-208,"y":-60,"width":425,"height":360,"color":"6"},
+		{"id":"86f7c5f318b268dd","type":"text","text":"**Abstraction:** Generalization finding similarities\n- Mammal, Vehicle","x":-299,"y":-220,"width":283,"height":140,"color":"6"}
+	],
+	"edges":[]
+}

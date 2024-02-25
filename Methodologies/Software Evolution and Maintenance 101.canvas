@@ -1,0 +1,15 @@
+{
+	"nodes":[
+		{"id":"beb55f52421c78d9","type":"group","x":-530,"y":-750,"width":1060,"height":1500,"color":"2","label":"4 - Software Evolution and Maintenance"},
+		{"id":"9bded2fa519b6630","type":"text","text":"**Software development continues throughout the software's lifespan.**","x":-158,"y":-730,"width":307,"height":100,"color":"2"},
+		{"id":"34b4d30db0d35959","type":"text","text":"**Maintenance Costs**\n- **Team:** Personnel costs.\n- **Contractual:** Costs related to external contracts.\n- **Qualification:** Training and skill development costs.\n- **Program Age:** The older the structure, the more challenging it is to evolve.","x":230,"y":-610,"width":280,"height":360,"color":"2"},
+		{"id":"c22334235b0eda14","type":"text","text":"**Types of Maintenance**\n- **Corrective:** Fixing errors.\n- **Adaptive:** Adapting the software to the environment.\n- **Perfective (Evolutionary):** Adding or modifying features as per client request.\n- **Preventive:** Improving maintenance and reliability.","x":-194,"y":-590,"width":379,"height":300,"color":"2"},
+		{"id":"87bf2ec5151ca624","type":"text","text":"**Maintainability** is defined by the ease with which software can be understood, corrected, and adapted.","x":-158,"y":-250,"width":307,"height":120,"color":"2"},
+		{"id":"790c46e9dccab7e6","type":"text","text":"**Reverse Engineering** is the understanding of the system.","x":-158,"y":-70,"width":307,"height":80,"color":"2"},
+		{"id":"ae69a7b0861003ed","type":"text","text":"**The Maintenance phase is the most problematic and expensive phase of the Software Development Life Cycle (SDLC).**\n\n- Software needs to be updated to maintain its value.\n- Average software lifespan: 10-15 years.","x":-510,"y":-590,"width":280,"height":300,"color":"2"},
+		{"id":"c0fcb203ad6e7bde","type":"text","text":"**Reengineering** is the restructuring and improvement of the system, using reverse engineering as a starting point.\n- Reduces the risk of creating entirely new software.\n- The cost is lower than developing new software.\n- It is not a completely new software, and there are limits to improvement.","x":-158,"y":50,"width":307,"height":320,"color":"2"},
+		{"id":"81ad79234bd6aef6","type":"text","text":"**Refactoring**\n- Between maintenance and reengineering.\n- It is like maintenance focused on improvements.\n- Aims to prevent code degradation in the long term.","x":230,"y":50,"width":280,"height":320,"color":"2"},
+		{"id":"1addc633e4a2d66f","type":"text","text":"**Legacy Systems** are systems built with outdated technology and are not easily updated and maintained.\n- Difficulty in finding programmers with knowledge of it, necessitating investment in training.\n- Lack of documentation.\n- Gradual replacement.\n- Should be carefully analyzed.","x":-208,"y":430,"width":408,"height":300,"color":"2"}
+	],
+	"edges":[]
+}

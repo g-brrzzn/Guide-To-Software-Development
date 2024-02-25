@@ -1,0 +1,22 @@
+{
+	"nodes":[
+		{"id":"0b8c138d2567899a","type":"group","x":-510,"y":-1180,"width":1020,"height":2360,"color":"3","label":"3 - Tests"},
+		{"id":"7b4b7b803cb53b18","type":"text","text":"**Categories of Testing**","x":-130,"y":-320,"width":265,"height":50,"color":"3"},
+		{"id":"8a12e6d8f0321f62","type":"text","text":"**White Box Testing**\n- Tests conducted based on the analysis of the source code.\n- Has access to the source code.","x":35,"y":-210,"width":280,"height":240,"color":"3"},
+		{"id":"a20f2633b1067439","type":"text","text":"**Types of Testing**\n- **Unit Testing:** Testing of a single module, a class.\n- **Integration Testing:** A set of modules that are integrated.\n- **System (E2E - End-to-End) Testing:** Tests the entire system.","x":-145,"y":-720,"width":280,"height":320,"color":"3"},
+		{"id":"5d49a4b8cd985c9b","type":"text","text":"**Software Testing**\n- An attempt to find errors and verify if the program meets non-functional requirements.\n- The test conducted may not find existing errors.\n- Tests do not prove the absence of errors.\n- Successful testing: discovers a *previously undiscovered error*.","x":-145,"y":-1160,"width":280,"height":380,"color":"3"},
+		{"id":"f35d1568ff1d6e87","type":"text","text":"**Unit Testing**\n- Automated tests of small units of code (typically, classes).\n- Detects errors in the tested class and those that affect it.\n- Detects errors in the early stage.","x":165,"y":-720,"width":280,"height":320,"color":"3"},
+		{"id":"d5b0c264bee0edc3","type":"text","text":"**Regression Testing**\n- Executed after any modification to the system\n- Ensures that updates have not impacted the software workflow\n- Can be automatic or manual","x":-145,"y":460,"width":280,"height":320,"color":"3"},
+		{"id":"18ec66385a4789d6","type":"text","text":"**Test-Driven Development (TDD)**\n- Tests developed before classes\n- Enhances usability and prevents errors","x":-460,"y":460,"width":280,"height":220,"color":"3"},
+		{"id":"f8dfc187c3e69b4b","type":"text","text":"**FIRST Principles**\nDesirable features in automated tests\n- **Fast**\n- **Independent** (not relying on another test)\n- **Repeatable** (always yielding the same result)\n- **Self-validating**\n- **Timely** (written as early as possible)","x":-215,"y":120,"width":420,"height":300,"color":"3"},
+		{"id":"9d7e63f83aabcafb","type":"text","text":"**Red-Green-Refactor**\n- **Red:** Write the test. The test should fail; the functionality is not yet implemented.\n- **Green:** Implement the code to make the test pass. Test passes.\n- **Refactor:** Improve the structure if needed, but keep the tests green.","x":-460,"y":720,"width":280,"height":380,"color":"3"},
+		{"id":"b067bf7f0cabad68","type":"text","text":"**Black Box Testing**\n- Focuses only on functional requirements.\n- Identifies inputs that produce incorrect outputs.\n- No access to the source code.","x":-300,"y":-220,"width":280,"height":260,"color":"3"},
+		{"id":"3ed19f59ddb2c5f6","type":"text","text":"**Verification vs. Validation**\n- **Verification:** Review and analysis of software and code to ensure it complies with requirements - \"How it is done.\"\n- **Validation:** Checks if the desired product is being produced for the customer - \"What it does.\"","x":-460,"y":-720,"width":280,"height":360,"color":"3"},
+		{"id":"69374792abe3e074","type":"text","text":"**Defect vs. Error vs. Failure**\n- **Defect:** Issue in the algorithm.\n- **Error:** Introduction of the defect during development.\n- **Failure:** Observation of a problem in the software due to an error.","x":-460,"y":-1080,"width":280,"height":300,"color":"3"}
+	],
+	"edges":[
+		{"id":"e41f5e24a423cf9d","fromNode":"b067bf7f0cabad68","fromSide":"right","toNode":"8a12e6d8f0321f62","toSide":"left"},
+		{"id":"1ba43b39efc9accf","fromNode":"a20f2633b1067439","fromSide":"right","toNode":"f35d1568ff1d6e87","toSide":"left"},
+		{"id":"e9ef2c1df2303ecc","fromNode":"18ec66385a4789d6","fromSide":"bottom","toNode":"9d7e63f83aabcafb","toSide":"top"}
+	]
+}
