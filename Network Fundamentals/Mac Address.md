@@ -1,0 +1,1 @@
+A **MAC (Media Access Control) Address** is a unique identifier assigned to every network device with a network interface, such as Ethernet network cards or Wi-Fi adapters. It is used for communication within a local network (LAN). Operates at the Data Link Layer. Typically represented by 12 hexadecimal digits, separated by colons or hyphens (e.g., 00:1A:2B:3C:4D:5E).

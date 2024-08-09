@@ -1,0 +1,3 @@
+**End Systems** are devices located at the edge of the network, serving as the origin or final destination of data. Examples include PCs, smartphones, servers, printers, and consoles. These devices are responsible for initiating and terminating network communications.
+
+**Intermediary Systems** are devices that are neither the origin nor the final destination of data but assist in routing data from a source to a destination. Examples include routers, switches, hubs, and bridges.
